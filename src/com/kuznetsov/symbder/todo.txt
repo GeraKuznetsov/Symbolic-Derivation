@@ -1,0 +1,23 @@
+5	cosec(u)	-cosec(u)*cot(u)*du/dx	
+6	cot(u)	-cosec(u)^2*du/dx	
+7	sinh(u)	cosh(u)*du/dx	
+8	cosh(u)	sinh(u)*du/dx	
+9	tanh(u)	sech(u)^2*du/dx	
+10	sech(u)	sech(u)*tanh(u)*du/dx	
+11	cosech(u)	cosech(u)*coth(u)*du/dx	
+12	coth(u)	-cosech(u)^2*du/dx	
+13	asin(u)	1/sqrt(1-u^2)*du/dx	
+14	acos(u)	-1/sqrt(1-u^2)*du/dx	
+15	atan(u)	1/(1+u^2)*du/dx	
+16	asec(u)	1/(|u|*sqrt(u^2-1))*du/dx	|u| is abs(u)
+17	acosec(u)	-1/(|u|*sqrt(u^2-1))*du/dx	|u| is abs(u)
+18	acot(u)	-1/(1+u^2)*du/dx	
+19	asinh(u)	1/sqrt(u^2+1)*du/dx	
+20	acosh(u)	1/sqrt(u^2-1)*du/dx	
+21	atanh(u)	1/(1-u^2)*du/dx	
+22	asech(u)	-1/(u*sqrt(1-u^2))*du/dx	
+23	acosech(u)	-1/(u*sqrt(1+u^2))*du/dx	
+24	acoth(u)	1/(1-u^2)*du/dx	
+25	sqrt(u)	1/(2*sqrt(u))*du/dx	
+29	sign(u)	0	
+30	abs(u)	u/|u|*du/dx	|u| is abs(u)
